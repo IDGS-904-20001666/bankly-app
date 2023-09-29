@@ -61,7 +61,7 @@ export const IndexPage = () =>
                                 <img
                                 width={250}
                                 height={250}
-                                className="mask mask-hexagon object-cover"
+                                className="mask mask-circle object-cover"
                                 src="https://images.pexels.com/photos/7621144/pexels-photo-7621144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                 alt="Crédito"
                                 />
@@ -75,7 +75,7 @@ export const IndexPage = () =>
                                 <img
                                 width={250}
                                 height={250}
-                                className="mask mask-hexagon object-cover"
+                                className="mask mask-circle object-cover"
                                 src="https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 "
                                 alt="Cuenta"
                                 />
@@ -89,7 +89,7 @@ export const IndexPage = () =>
                                 <img
                                 width={250}
                                 height={250}
-                                className="mask mask-hexagon object-cover"
+                                className="mask mask-circle object-cover"
                                 src="https://images.pexels.com/photos/1602726/pexels-photo-1602726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                 alt="Ahorro"
                                 />
@@ -101,7 +101,16 @@ export const IndexPage = () =>
                 </div>
             </div>
 
-            <div className="w-full px-2 lg:px-10 py-10">
+            <div className="w-full pt-10">
+                <div className='flex items-center justify-center w-full h-auto pb-4'>
+                    <div className='max-w-md'>
+                        <p className="text-base-content/60 font-title text-center font-light md:text-xl">Nuestros clientes nos respaldan</p>
+                        <h1 className="text-5xl font-bold">Datos y testimonios</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w-full px-2 lg:px-10 py-6">
                 <div className="sticky top-0 text-center">
                     {/* <div className="bg-primary pointer-events-none absolute bottom-0 left-1/2 aspect-square w-1/2 -translate-x-1/2 rounded-full opacity-10 blur-3xl"></div> */}
                     <div className="grid gap-10 p-6 xl:grid-cols-3">
@@ -217,54 +226,6 @@ export const IndexPage = () =>
                                 </div>
                             </div>
                             <p className="text-base-content">daisyUI is such a time saver</p>
-                        </div>
-                    </div>
-                    <div className="card border-base-content/5 card-compact border text-left">
-                        <div className="card-body">
-                            <div className="flex items-center gap-2">
-                                <div className="avatar" data-svelte-h="svelte-1cw9wf0">
-                                    <a href="https://twitter.com/spences10/status/1613920221240213504" target="_blank" rel="noopener, noreferrer" className="w-12">
-                                        <img loading="lazy" src="/twitter-profile-pics/spences10-72.webp" alt="Scott Spence" width="48" height="48" className="pointer-events-none rounded-full" />
-                                    </a>
-                                </div>
-                                <div className="flex flex-col items-start text-xs">
-                                    <div className="text-base-content font-bold">Scott Spence</div>
-                                    <div className="text-base-content/60">SvelteSociety London events organiser</div>
-                                </div>
-                            </div>
-                            <p className="text-base-content">If you use Tailwind and want prepackaged components then I wholeheartedly recommend daisyUI! An awesome set of defaults that's super configurable 🔥</p>
-                        </div>
-                    </div>
-                    <div className="card border-base-content/5 card-compact border text-left">
-                        <div className="card-body">
-                            <div className="flex items-center gap-2">
-                                <div className="avatar" data-svelte-h="svelte-1cw9wf0">
-                                    <a href="https://twitter.com/Brslv/status/1657034356454576130" target="_blank" rel="noopener, noreferrer" className="w-12">
-                                        <img loading="lazy" src="/twitter-profile-pics/Brslv-72.webp" alt="borislav grigorov" width="48" height="48" className="pointer-events-none rounded-full" />
-                                    </a>
-                                </div>
-                                <div className="flex flex-col items-start text-xs">
-                                    <div className="text-base-content font-bold">borislav grigorov</div>
-                                    <div className="text-base-content/60">Indiehacker</div>
-                                </div>
-                            </div>
-                            <p className="text-base-content">daisyui is awesome!</p>
-                        </div>
-                    </div>
-                    <div className="card border-base-content/5 card-compact border text-left">
-                        <div className="card-body">
-                            <div className="flex items-center gap-2">
-                                <div className="avatar" data-svelte-h="svelte-1cw9wf0">
-                                    <a href="https://twitter.com/remkim_/status/1641817678334816257" target="_blank" rel="noopener, noreferrer" className="w-12">
-                                        <img loading="lazy" src="/twitter-profile-pics/remkim_-72.webp" alt="Rem Kim" width="48" height="48" className="pointer-events-none rounded-full" />
-                                    </a>
-                                </div>
-                                <div className="flex flex-col items-start text-xs">
-                                    <div className="text-base-content font-bold">Rem Kim</div>
-                                    <div className="text-base-content/60">Founder of resolveai.co</div>
-                                </div>
-                            </div>
-                            <p className="text-base-content">I'm glad I found daisyUI. daisyUI is built with Tailwind CSS which makes it perfect fit for me.</p>
                         </div>
                     </div>
                 </div>

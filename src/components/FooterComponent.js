@@ -23,18 +23,20 @@ export const FooterComponent = () =>
                     <a className="link link-hover">Terminos y condiciones</a> 
                     <a className="link link-hover">Politica de privacidad</a> 
                 </nav> 
-                <form>
+                <nav>
                     <header className="footer-title">Bolet&iacute;n informativo</header> 
-                    <fieldset className="form-control w-80">
-                    <label className="label">
-                        <span className="label-text">Ingresa tu correo</span>
-                    </label> 
-                    <div className="relative">
-                        <input type="text" placeholder="ejemplo@bankly.com.mx" className="input input-bordered w-full pr-16" /> 
-                        <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">Suscribir</button>
-                    </div>
-                    </fieldset>
-                </form>
+                    <form>
+                        <fieldset className="form-control w-80">
+                        <label className="label">
+                            <span className="label-text">Ingresa tu correo</span>
+                        </label> 
+                        <div className="relative">
+                            <input type="text" placeholder="email@bankly.com" className="input input-bordered w-full pr-16" /> 
+                            <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">Suscribir</button>
+                        </div>
+                        </fieldset>
+                    </form>
+                </nav>
             </footer>
             <footer className="footer px-10 py-4 bg-base-200 text-base-content border-base-300">
                 <aside className="items-center grid-flow-col">
