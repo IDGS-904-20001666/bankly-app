@@ -36,16 +36,16 @@ export const IndexPage = () =>
             </div>
 
             <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://images.pexels.com/photos/5554303/pexels-photo-5554303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)' }}>
-                <div className="hero-overlay bg-opacity-50"></div>
+                <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                        <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <h1 className="mb-5 text-5xl font-bold">Tu socio financiero</h1>
+                        <p className="mb-5 text-xl font-light">Simplificamos tus finanzas estudiantiles para que puedas enfocarte en lo que realmente importa: tu educación</p>
                     </div>
                 </div>
             </div>
 
-            <div className='bg-neutral from-neutral to-neutral-focus text-neutral-content relative flex min-h-[100vh] max-w-[100vw] items-center justify-center overflow-hidden bg-gradient-to-br p-10 md:p-20'>
+            <div className='bg-base from-base to-base-focus text-base-content relative flex min-h-[100vh] max-w-[100vw] items-center justify-center overflow-hidden bg-gradient-to-br p-10 md:p-20'>
                 <div>
                     <div className="w-full">
                         <div className='flex items-center justify-center w-full h-auto pb-4'>
@@ -101,7 +101,7 @@ export const IndexPage = () =>
                 </div>
             </div>
 
-            <div className="w-full pt-10">
+            <div className="w-full pt-4">
                 <div className='flex items-center justify-center w-full h-auto pb-4'>
                     <div className='max-w-md'>
                         <p className="text-base-content/60 font-title text-center font-light md:text-xl">Nuestros clientes nos respaldan</p>
@@ -136,101 +136,124 @@ export const IndexPage = () =>
                         <div className="card-body">
                             <div className="flex items-center gap-2">
                                 <div className="avatar" data-svelte-h="svelte-1cw9wf0">
-                                    <a href="https://twitter.com/developedbyed/status/1633913146422198276" target="_blank" rel="noopener, noreferrer" className="w-12">
-                                        <img loading="lazy" src="/twitter-profile-pics/developedbyed-72.webp" alt="Dev Ed" width="48" height="48" className="pointer-events-none rounded-full" />
+                                    <a href="#"  rel="noopener, noreferrer" className="w-12">
+                                        <img loading="lazy" src="https://static.cordonbleu.edu/Files/MediaFile/45897.jpg" alt="Alejandra Herrera" width="48" height="48" className="pointer-events-none mask mask-circle" />
                                     </a>
                                 </div>
                                 <div className="flex flex-col items-start text-xs">
-                                    <div className="text-base-content font-bold">Dev Ed</div>
-                                    <div className="text-base-content/60">Content Creator</div>
+                                    <div className="text-base-content font-bold">Alejandra Herrera</div>
+                                    <div className="text-base-content/60">Tec de Monterrey</div>
                                 </div>
                             </div>
-                            <p className="text-base-content">Been using daisyUI for a while and I must say...such a fun addon for Tailwind CSS, well done 🔥</p>
+                            <p className="text-base-content prose prose-sm py-4">
+                                <blockquote>
+                                    "Las alianzas con universidades son estratégicas y pueden facilitar el acceso a nuevos clientes"
+                                </blockquote>
+                            </p>
                         </div>
                     </div>
                     <div className="card border-base-content/5 card-compact border text-left">
                         <div className="card-body">
                             <div className="flex items-center gap-2">
                                 <div className="avatar" data-svelte-h="svelte-1cw9wf0">
-                                    <a href="https://twitter.com/marc_louvion/status/1534886647850221571" target="_blank" rel="noopener, noreferrer" className="w-12">
-                                        <img loading="lazy" src="/twitter-profile-pics/marc_louvion-72.webp" alt="Marc Lou" width="48" height="48" className="pointer-events-none rounded-full" />
+                                    <a href="#"  rel="noopener, noreferrer" className="w-12">
+                                        <img loading="lazy" src="https://static.cordonbleu.edu/Files/MediaFile/45889.jpg" alt="Esteban Chacón" width="48" height="48" className="pointer-events-none mask mask-circle" />
                                     </a>
                                 </div>
                                 <div className="flex flex-col items-start text-xs">
-                                    <div className="text-base-content font-bold">Marc Lou</div>
-                                    <div className="text-base-content/60">HabitsGarden, Landing-AI, IndiePa.ge</div>
+                                    <div className="text-base-content font-bold">Esteban Chacón</div>
+                                    <div className="text-base-content/60">Universidad Anahuac</div>
                                 </div>
                             </div>
-                            <p className="text-base-content">If you want to build beautiful apps in no time, daisyUI is the way to go ✨ I've been using it for the past 6 months and can't imagine living without it...</p>
+                            <p className="text-base-content prose prose-sm py-4">
+                                <blockquote>
+                                    "Las tasas de interés en los préstamos estudiantiles son claras y competitivas"
+                                </blockquote>
+                            </p>
                         </div>
                     </div>
                     <div className="card border-base-content/5 card-compact border text-left">
                         <div className="card-body">
                             <div className="flex items-center gap-2">
                                 <div className="avatar" data-svelte-h="svelte-1cw9wf0">
-                                    <a href="https://twitter.com/NikkitaFTW/status/1620481690148929538" target="_blank" rel="noopener, noreferrer" className="w-12">
-                                        <img loading="lazy" src="/twitter-profile-pics/NikkitaFTW-72.webp" alt="Sara Vieira" width="48" height="48" className="pointer-events-none rounded-full" />
+                                    <a href="#"  rel="noopener, noreferrer" className="w-12">
+                                        <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRysHtwiVq6jFDBw9TSxIFLVar4cyjaru4x7w&usqp=CAU" alt="Nicole Cucco" width="48" height="48" className="pointer-events-none mask mask-circle" />
                                     </a>
                                 </div>
                                 <div className="flex flex-col items-start text-xs">
-                                    <div className="text-base-content font-bold">Sara Vieira</div>
-                                    <div className="text-base-content/60">Developer at axo.dev</div>
+                                    <div className="text-base-content font-bold">Nicole Cucco</div>
+                                    <div className="text-base-content/60">Universidad de Le&oacute;n</div>
                                 </div>
                             </div>
-                            <p className="text-base-content">It's great! Been using it in all my projects!</p>
+                            <p className="text-base-content prose prose-sm py-4">
+                                <blockquote>
+                                    "Me gusta la idea de tarjetas sin comisiones para estudiantes,  es conveniente"
+                                </blockquote>
+                            </p>
                         </div>
                     </div>
                     <div className="card border-base-content/5 card-compact border text-left">
                         <div className="card-body">
                             <div className="flex items-center gap-2">
                                 <div className="avatar" data-svelte-h="svelte-1cw9wf0">
-                                    <a href="https://twitter.com/sudo_overflow/status/1657999552312651776" target="_blank" rel="noopener, noreferrer" className="w-12">
-                                        <img loading="lazy" src="/twitter-profile-pics/sudo_overflow-72.webp" alt="Cyris" width="48" height="48" className="pointer-events-none rounded-full" />
+                                    <a href=""  rel="noopener, noreferrer" className="w-12">
+                                        <img loading="lazy" src="https://static.cordonbleu.edu/Files/MediaFile/42854.jpg" alt="Carlos Guerrero" width="48" height="48" className="pointer-events-none mask mask-circle" />
                                     </a>
                                 </div>
                                 <div className="flex flex-col items-start text-xs">
-                                    <div className="text-base-content font-bold">Cyris</div>
-                                    <div className="text-base-content/60">Software Engineer</div>
+                                    <div className="text-base-content font-bold">Carlos Guerrero</div>
+                                    <div className="text-base-content/60">Universidad Tecnol&oacute;gica de Le&oacute;n</div>
                                 </div>
                             </div>
-                            <p className="text-base-content">daisyUI is amazing and I use it for all my projects</p>
+                            <p className="text-base-content prose prose-sm py-4">
+                                <blockquote>
+                                    "Bankly se centra en satisfacer las necesidades financieras de los estudiantes, lo cual es prometedor"
+                                </blockquote>
+                            </p>
                         </div>
                     </div>
                     <div className="card border-base-content/5 card-compact border text-left">
                         <div className="card-body">
                             <div className="flex items-center gap-2">
                                 <div className="avatar" data-svelte-h="svelte-1cw9wf0">
-                                    <a href="https://twitter.com/TiiaAurora/status/1556968894862180354" target="_blank" rel="noopener, noreferrer" className="w-12">
-                                        <img loading="lazy" src="/twitter-profile-pics/TiiaAurora-72.webp" alt="TiiaAurora" width="48" height="48" className="pointer-events-none rounded-full" />
+                                    <a href="#"  rel="noopener, noreferrer" className="w-12">
+                                        <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaoHE1HngNl-RDYuG4Qvgnf4vnFIAGCLZ1OhurrlUYx7BcypzqPtkyNQbHMwfNZmZgflU&usqp=CAU" alt="María Becerra" width="48" height="48" className="pointer-events-none mask mask-circle" />
                                     </a>
                                 </div>
                                 <div className="flex flex-col items-start text-xs">
-                                    <div className="text-base-content font-bold">TiiaAurora</div>
-                                    <div className="text-base-content/60">Tech journalist</div>
+                                    <div className="text-base-content font-bold">María Becerra</div>
+                                    <div className="text-base-content/60">Instituto Polit&eacute;cnico Nacional</div>
                                 </div>
                             </div>
-                            <p className="text-base-content">We use daisyUI + Tailwind with our projects. It has been extremly helpful building websites fast and give us a red design line through several different projects.</p>
+                            <p className="text-base-content prose prose-sm py-4">
+                                <blockquote>
+                                    "Los productos de Bankly podrían ser una solución perfecta para estudiantes que desean administrar sus finanzas de manera eficiente mientras se concentran en sus estudios"
+                                </blockquote>
+                            </p>
                         </div>
                     </div>
                     <div className="card border-base-content/5 card-compact border text-left">
                         <div className="card-body">
                             <div className="flex items-center gap-2">
                                 <div className="avatar" data-svelte-h="svelte-1cw9wf0">
-                                    <a href="https://twitter.com/olliethedev/status/1658134686177153024" target="_blank" rel="noopener, noreferrer" className="w-12">
-                                        <img loading="lazy" src="/twitter-profile-pics/olliethedev-72.webp" alt="Ollie The Dev" width="48" height="48" className="pointer-events-none rounded-full" />
+                                    <a href="#"  rel="noopener, noreferrer" className="w-12">
+                                        <img loading="lazy" src="https://static.cordonbleu.edu/Files/MediaFile/34589.jpg" alt="Fernando Azcarraga" width="48" height="48" className="pointer-events-none mask mask-circle" />
                                     </a>
                                 </div>
                                 <div className="flex flex-col items-start text-xs">
-                                    <div className="text-base-content font-bold">Ollie The Dev</div>
-                                    <div className="text-base-content/60">Amplify UI, texttodesign.ai</div>
+                                    <div className="text-base-content font-bold">Fernando Azcarraga</div>
+                                    <div className="text-base-content/60">Universidad de Guanajuato</div>
                                 </div>
                             </div>
-                            <p className="text-base-content">daisyUI is such a time saver</p>
+                            <p className="text-base-content prose prose-sm py-4">
+                                <blockquote>
+                                    "Bankly parece ser una excelente opción para estudiantes que buscan servicios financieros personalizados y amigables con su situación académica"
+                                </blockquote>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </>
     )
 }

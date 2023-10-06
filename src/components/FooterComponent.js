@@ -32,7 +32,7 @@ export const FooterComponent = () =>
                         </label> 
                         <div className="relative">
                             <input type="text" placeholder="email@bankly.com" className="input input-bordered w-full pr-16" /> 
-                            <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">Suscribir</button>
+                            <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">Suscribirme</button>
                         </div>
                         </fieldset>
                     </form>
