@@ -5,6 +5,7 @@ import { NavbarComponent } from '../components/NavbarComponent'
 import { AboutUsPage } from '../pages/AboutUsPage'
 import { ContactUsPage } from '../pages/ContactUsPage'
 import { IndexPage } from '../pages/IndexPage'
+import { ServicesPage } from '../pages/ServicesPage'
 
 export const SiteLayout = () => 
 {
@@ -15,6 +16,7 @@ export const SiteLayout = () =>
                 <Route path="/" element={ <IndexPage /> } />
                 <Route path="/about_us" element={ <AboutUsPage /> } />
                 <Route path="/contact_us" element={ <ContactUsPage /> } />
+                <Route path="/services" element={ <ServicesPage /> } />
             </Routes>
             <FooterComponent/>
         </>

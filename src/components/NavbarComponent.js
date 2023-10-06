@@ -16,11 +16,7 @@ export const NavbarComponent = () =>
                             <NavLink to="/">Inicio</NavLink>
                         </li>
                         <li>
-                            <a>Parent</a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
+                            <NavLink exact="/services" to="/services">Servicios</NavLink>
                         </li>
                         <li>
                             <NavLink exact="/about_us" to="/about_us">Nosotros</NavLink>
@@ -40,14 +36,8 @@ export const NavbarComponent = () =>
                     <li>
                         <NavLink to="/">Inicio</NavLink>
                     </li>
-                    <li tabIndex={0}>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
+                    <li>
+                        <NavLink to="/services">Servicios</NavLink>
                     </li>
                     <li>
                         <NavLink to="/about_us">Nosotros</NavLink>
