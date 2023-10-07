@@ -33,7 +33,7 @@ export const ServicesPage = () =>
                                 style={{ transform: "translateX(1.0924781798568226%)" }}
                             >
                                 <div className="card-body">
-                                    <img src={ DebitCardImg } width={ 250}></img>
+                                    <img src={ DebitCardImg } width={ 250} alt="Bankly Tarjeta de Débito"></img>
                                 </div>
                             </div>
                             <div
@@ -41,7 +41,7 @@ export const ServicesPage = () =>
                                 style={{ transform: "translateX(-1.0924781798568226%)" }}
                             >
                                 <div className="card-body">
-                                    <img src={ CreditCardImg } width={ 250}></img>
+                                    <img src={ CreditCardImg } width={ 250} alt="Bankly Tarjeta de Crédito"></img>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ export const ServicesPage = () =>
             <div className="bg-neutral from-neutral to-neutral-focus text-neutral-content relative flex min-h-[100vh] max-w-[100vw] items-center justify-center overflow-hidden bg-gradient-to-br p-10 md:p-20">
                 <div className="relative flex max-w-[100rem] flex-col items-center justify-center xl:flex-row xl:gap-20">
                     <div className="flex flex-col items-center justify-center">
-                        <img src={DebitCardImg} width={'650'}></img>
+                        <img src={DebitCardImg} width={'650'} alt="Bankly Tarjeta de Débito"></img>
                     </div>
                     <div className="relative z-[1] w-full py-10">
                         <h2 className="font-title font-black leading-none text-center xl:text-left text-4xl">
@@ -80,7 +80,7 @@ export const ServicesPage = () =>
             <div className="from-base-100 to-base-300 relative flex min-h-[100vh] max-w-[100vw] items-center justify-center overflow-hidden bg-gradient-to-br p-10 md:p-20">
                 <div className="relative flex max-w-[100rem] flex-col items-center justify-center xl:flex-row xl:gap-20">
                     <div className="flex flex-col items-center justify-center">
-                        <img src={ CreditCardImg } width={'650'}></img>
+                        <img src={ CreditCardImg } width={'650'} alt="Bankly Tarjeta de Crédito"></img>
                     </div>
                     <div className="relative z-[1] w-full py-10">
                         <h2 className="font-title font-black leading-none text-center xl:text-left text-4xl">

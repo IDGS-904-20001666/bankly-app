@@ -22,7 +22,7 @@ export const IndexPage = () =>
                             <div className="h-5"></div>
                             <div>
                                 <div className="inline-flex w-full flex-col items-stretch justify-center gap-2 px-4 md:flex-row xl:px-0">
-                                    <a data-sveltekit-preload-data="hover" href="/docs/install/" className="btn btn-neutral md:btn-lg md:btn-wide group px-12 normal-case">
+                                    <a data-sveltekit-preload-data="hover" href="#" className="btn btn-neutral md:btn-lg md:btn-wide group px-12 normal-case">
                                         Registrate aquí 
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="hidden h-6 w-6 transition-transform duration-300 group-hover:translate-x-1 md:inline-block">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
